@@ -12,4 +12,4 @@ def fetch_data():
 	else:
 		return f'Failed to fetch data: {response.status_code}'
 if __name__ == '__main__':
-	app.run(host='0.0.0.0',port=80,debug=True)
+	app.run(debug=True)
