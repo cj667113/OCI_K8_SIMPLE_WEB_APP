@@ -3,7 +3,6 @@ kind: DaemonSet
 metadata:
   name: simple-web-app
 spec:
-  replicas: 3
   selector:
     matchLabels:
       app: simple-web-app
